@@ -11,14 +11,14 @@ namespace RTS_Labs_Technical_Exercise
             System.Console.WriteLine(program.AboveBelow(testArray, 6));
             testArray = new int[] { 2, 3, 5, 12, 51, 23, 21 };
             System.Console.WriteLine(program.AboveBelow(testArray, 5));
-
+            System.Console.WriteLine();
             
             for(int i = 0; i < 10; i++)
             {
                 System.Console.WriteLine(program.RotateString("MyString", i));
             }
 
-            System.Console.WriteLine("\n I don't have a lot of extensive experience with languages to the point where I know something I really dislike off the top of my head. I will say I do wish Visual Studio had line-item reverts and local git history like IntelliJ does.");
+            System.Console.WriteLine("\nI don't have a lot of extensive experience with languages to the point where I know something I really dislike off the top of my head. I will say I do wish Visual Studio had line-item reverts and local git history like IntelliJ does. Currently your only option is to revert entire files and if you do, you cannot get the files your revert back if you decide against your initial revert.");
         }
 
         public string AboveBelow(int[] inputArray, int inputInt)
